@@ -59,7 +59,3 @@
 section{
     margin-bottom: 50px;
 }
-.jumbotron ruby,
-.jumbotron p{
-    text-shadow:1px 1px 1px #FFF, -1px 1px 1px #FFF, 1px -1px 1px #FFF, -1px -1px 1px #FFF;
-}
