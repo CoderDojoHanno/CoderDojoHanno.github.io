@@ -75,7 +75,8 @@ section{
 .logo {
     font-family: 'League Gothic';
 }
-header .logo {
+
+#header .logo {
     font-size: 26px!important;
 }
 
