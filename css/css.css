@@ -75,6 +75,9 @@ section{
 .logo {
     font-family: 'League Gothic';
 }
+.font26 {
+    font-size: 26px;
+}
 
 ruby rt{
     font-size: 30%;
