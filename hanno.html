@@ -224,6 +224,18 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.coolfixed.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    $.ajax({
+      dataType: "json",
+      url: "https://api.doorkeeper.jp/events",
+      headers: { 'Authorization': '8PZVLLTyFh9YPBsFmBYK' },
+      data: {}
+    }).then(function(data) {
+      console.log(JSON.stringify(data));
+    }, function(err){
+      console.log(err)
+    });
+  </script>
 </body>
 
 </html>
